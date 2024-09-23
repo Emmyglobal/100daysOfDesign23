@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direct Messaging App</title>
+    <link rel="stylesheet" href="direct_message.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Chat with Other User</h2>
+        </div>
+
+        <div class="chat-box" id="chat-box">
+            <!-- Sample messages -->
+            <div class="message other-user">
+                <img src="testimonials-3.jpg" alt="Other User" class="avatar">
+                <p>Hello! How are you today?</p>
+            </div>
+            <div class="message you">
+                <img src="profile_pix.jpg" alt="You" class="avatar">
+                <p>I'm doing well, thanks! How about you?</p>
+            </div>
+        </div>
+
+        <div class="message-input">
+            <input type="text" id="message" placeholder="Type your message here...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="direct_message.js"></script>
+</body>
+</html>
