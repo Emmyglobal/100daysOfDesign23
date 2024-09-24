@@ -14,8 +14,9 @@ body {
     text-align: center;
 }
 h1{
-    color: #03bb0c;
+    color: #fc0202;
     font-weight: bolder;
+    background-color: rgb(47, 49, 48);
 }
 
 #countdown {
